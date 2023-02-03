@@ -1,0 +1,698 @@
+*{
+   box-sizing: border-box;
+}
+
+
+.firstsectionbody{
+   position: relative;
+}
+
+.section1 {
+   background-image: url(../images/lady.jpg);
+   background-position: left;
+   height: 400px;
+   width: 100%;
+   margin: auto;
+   
+}
+
+.firstsectionbody h1 {
+   font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+
+}
+
+.section1para h1{
+   width: 400px;
+   height: auto;
+   font-weight:normal;
+   font-weight: bold;
+   font-size: 33px;
+
+}
+
+.section1para p{
+   font-size: 20px;
+
+}
+
+.section1para{
+   position: absolute;
+   left: 60px;
+   top: 60px;
+   background-color: white;
+   padding-left: 30px;
+   padding-right: 45px;
+   box-shadow: 3px 3px 15px #b6b6b68c;
+   
+}
+
+.section2{
+   position: absolute;
+   left: 30px;
+   margin-top: 20px;
+}
+
+.section2 p{
+   font-size: 20px;
+}
+
+.courseselect ul{
+   display: inline;
+   display: flex;
+   padding-left: 0px;
+}
+
+.courseselect ul a{
+   
+   list-style: none;
+   text-decoration: none;
+   padding-right: 20px;
+   color: rgb(100, 98, 98);
+   font-weight: bold;
+   font-size: 18px;
+}
+
+.courseselect ul a:active{
+   color: black;
+}
+
+.courseselect ul a:hover{
+   color: black;
+}
+
+.section3{
+   position: relative;
+   top: 200px;
+   border: solid 0.5px rgb(201, 201, 201);
+   width: 95%;
+   margin: auto;
+   height: 550px;
+   margin-bottom: 300px;
+   
+   
+}
+
+.section3intro{
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding-left: 33px;
+   
+}
+
+.section3intro h1{
+   font-size: 24px;
+   font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.section3intro p{
+   font-size: 17px;
+   line-height: 20px;
+   
+}
+
+.section3intro button{
+padding: 10px;
+font-size: 14px;
+font-weight: bold;
+background-color: transparent;
+color: black;
+border: solid 1px rgb(90, 88, 88);
+cursor: pointer;
+}
+
+.slide1 img{
+   width: 230px;
+   border: solid 0.5px rgb(2, 2, 2);
+}
+
+.slide1 img:hover{
+   opacity: 0.7;
+   transition: 0.3s ease;
+
+}
+
+span{
+   color: rgb(158, 94, 10);
+}
+.slide1{
+   display: block;
+   padding-top: 40px;
+   padding-right: 17px;
+}
+
+.slide1:hover{
+   cursor: pointer;
+
+
+}
+
+.slide1 h1{
+   font-size: 15px;
+   width: auto;
+   font-family:Arial, Helvetica, sans-serif;
+   padding-bottom: 0px;
+
+}
+
+.starandcost {
+   font-size: 13px;
+   padding-bottom: 2px;
+   line-height: 25px;
+}
+
+.cost{
+   font-weight: bold;
+
+}
+
+.starandcost img{
+width: 45px;
+object-fit: cover;
+height: 10px;
+}
+s{
+   font-size: 13px;
+   color: grey;
+}
+
+.coursetrainer{
+   font-size: 13px;
+   line-height: 22px;
+}
+
+.coursesslides{
+   width: 98%;
+   display: flex;
+   padding-right: 10px;
+   overflow-x: auto;
+   scroll-behavior: smooth;
+}
+
+.coursesslides::-webkit-scrollbar{
+   display: none;
+}
+
+.scroll1{
+   position: absolute;
+   width: 25px;
+   right: 0px;
+   top: 50%;
+   background-color: whitesmoke;
+   border: solid 1px grey;
+   padding: 10px;
+   border-radius: 50px;
+   z-index: 100;
+   cursor: pointer;
+}
+
+.scroll2{
+   position: absolute;
+   transform: rotate(180deg);
+   width: 25px;
+   left: 0px;
+   top: 50%;
+   top: 50%;
+   background-color: whitesmoke;
+   border: solid 1px grey;
+   padding: 10px;
+   border-radius: 50px;
+   z-index: 100;
+   cursor: pointer;
+}
+
+.presection3{
+   padding-left: 30px;
+}
+
+.slideone{
+   position: relative;
+
+}
+
+.dropdown1{
+   display: none;
+   width: 300px;
+   padding: 20px;
+   top: -60px;
+   position: absolute;
+   left: 240px;
+   background-color: white;
+   border: solid 0.5px rgb(209, 202, 202);
+
+}
+
+.dropdown1 span{
+   color: rgb(75, 163, 75);
+
+}
+
+.dropdown1 h1{
+   font-size: 20px;
+}
+
+.dropdown1  button{
+   background-color: rgb(148, 53, 148);
+   padding: 5px 10px;
+   display: block;
+   height: 40px;
+   width: 210px;
+   border: none;
+   font-size: 16px;
+   color: white;
+   cursor: pointer;
+
+}
+
+.dropdown1 button:hover{
+   opacity: 0.8;
+}
+
+.buttonandheart{
+   display: flex;
+}
+.buttonandheart img{
+   width: 20px;
+   border: solid 0.5px black;
+   border-radius: 50px;
+   padding: 10px;
+   margin-left: 25px;
+   cursor: pointer;
+}
+
+.slideone:hover .dropdown1{
+   display: block;
+
+   
+}
+
+.textandtick img{
+   width: 10px;
+   object-fit: contain;
+}
+
+
+
+.dropdown2{
+   display: none;
+   position: absolute;
+   left: 520px;
+   top: 95px;
+   width: 300px;
+   padding: 20px;
+   background-color: white;
+   border: solid 0.5px rgb(209, 202, 202);
+}
+
+
+.dropdown2 span{
+   color: rgb(75, 163, 75);
+
+}
+
+.dropdown2 h1{
+   font-size: 20px;
+}
+
+.dropdown2 button{
+   background-color: rgb(148, 53, 148);
+   padding: 5px 10px;
+   display: block;
+   height: 40px;
+   width: 210px;
+   border: none;
+   font-size: 16px;
+   color: white;
+   cursor: pointer;
+
+}
+
+.dropdown2 button:hover{
+   opacity: 0.8;
+}
+
+.slidetwo:hover .dropdown2{
+   display: block;
+   
+}
+
+.dropdown3{
+   display: none;
+   position: absolute;
+   left: 770px;
+   top: 95px;
+   width: 300px;
+   padding: 20px;
+   background-color: white;
+   border: solid 0.5px rgb(209, 202, 202);
+}
+
+.dropdown3 span{
+   color: rgb(75, 163, 75);
+
+}
+
+.dropdown3 h1{
+   font-size: 20px;
+}
+
+.dropdown3 button{
+   background-color: rgb(148, 53, 148);
+   padding: 5px 10px;
+   display: block;
+   height: 40px;
+   width: 210px;
+   border: none;
+   font-size: 16px;
+   color: white;
+   cursor: pointer;
+
+}
+
+.dropdown3 button:hover{
+   opacity: 0.8;
+}
+
+.slidethree:hover .dropdown3{
+   display: block;
+   
+}
+
+/* DROP DOWN FOUR BELOW */
+
+.dropdown4{
+   display: none;
+   position: absolute;
+   left: 420px;
+   top: 95px;
+   width: 300px;
+   padding: 20px;
+   background-color: white;
+   border: solid 0.5px rgb(209, 202, 202);
+}
+
+.dropdown4 span{
+   color: rgb(75, 163, 75);
+
+}
+
+.dropdown4 h1{
+   font-size: 20px;
+}
+
+.dropdown4 button{
+   background-color: rgb(148, 53, 148);
+   padding: 5px 10px;
+   display: block;
+   height: 40px;
+   width: 210px;
+   border: none;
+   font-size: 16px;
+   color: white;
+   cursor: pointer;
+
+}
+
+.dropdown4 button:hover{
+   opacity: 0.8;
+}
+
+.slidefour:hover .dropdown4{
+   display: block;
+   
+}
+
+/* DROP DOWN FIVE BELOW */
+
+.dropdown5{
+   display: none;
+   position: absolute;
+   left: 680px;
+   top: 95px;
+   width: 300px;
+   padding: 20px;
+   background-color: white;
+   border: solid 0.5px rgb(209, 202, 202);
+}
+
+.dropdown5 span{
+   color: rgb(75, 163, 75);
+
+}
+
+.dropdown5 h1{
+   font-size: 20px;
+}
+
+.dropdown5 button{
+   background-color: rgb(148, 53, 148);
+   padding: 5px 10px;
+   display: block;
+   height: 40px;
+   width: 210px;
+   border: none;
+   font-size: 16px;
+   color: white;
+   cursor: pointer;
+
+}
+
+.dropdown5 button:hover{
+   opacity: 0.8;
+}
+
+.slidefive:hover .dropdown5{
+   display: block;
+   
+}
+
+
+/* DROP DOWN SIX BELOW */
+
+
+.dropdown6{
+   display: none;
+   position: absolute;
+   left: 280px;
+   top: 95px;
+   width: 300px;
+   padding: 20px;
+   background-color: white;
+   border: solid 0.5px rgb(209, 202, 202);
+}
+
+.dropdown6 span{
+   color: rgb(75, 163, 75);
+
+}
+
+.dropdown6 h1{
+   font-size: 20px;
+}
+
+.dropdown6 button{
+   background-color: rgb(148, 53, 148);
+   padding: 5px 10px;
+   display: block;
+   height: 40px;
+   width: 210px;
+   border: none;
+   font-size: 16px;
+   color: white;
+   cursor: pointer;
+
+}
+
+.dropdown6 button:hover{
+   opacity: 0.8;
+}
+
+.slidesix:hover .dropdown6{
+   display: block;
+   
+}
+
+/* END OF DROP DOWN SIX */
+
+/* DROP DOWN SEVEN BEGINS */
+
+
+.dropdown7{
+   display: none;
+   position: absolute;
+   left: 540px;
+   top: 95px;
+   width: 300px;
+   padding: 20px;
+   background-color: white;
+   border: solid 0.5px rgb(209, 202, 202);
+}
+
+.dropdown7 span{
+   color: rgb(75, 163, 75);
+
+}
+
+.dropdown7 h1{
+   font-size: 20px;
+}
+
+.dropdown7 button{
+   background-color: rgb(148, 53, 148);
+   padding: 5px 10px;
+   display: block;
+   height: 40px;
+   width: 210px;
+   border: none;
+   font-size: 16px;
+   color: white;
+   cursor: pointer;
+
+}
+
+.dropdown7 button:hover{
+   opacity: 0.8;
+}
+
+.slideseven:hover .dropdown7{
+   display: block;
+   
+}
+/* END OF DROP DOWN SEVEN */
+
+/* START OF DROP DOWN EIGHT */
+
+
+.dropdown8{
+   display: none;
+   position: absolute;
+   left: 780px;
+   top: 95px;
+   width: 300px;
+   padding: 20px;
+   background-color: white;
+   border: solid 0.5px rgb(209, 202, 202);
+}
+
+.dropdown8 span{
+   color: rgb(75, 163, 75);
+
+}
+
+.dropdown8 h1{
+   font-size: 20px;
+}
+
+.dropdown8 button{
+   background-color: rgb(148, 53, 148);
+   padding: 5px 10px;
+   display: block;
+   height: 40px;
+   width: 210px;
+   border: none;
+   font-size: 16px;
+   color: white;
+   cursor: pointer;
+
+}
+
+.dropdown8 button:hover{
+   opacity: 0.8;
+}
+
+.slideeight:hover .dropdown8{
+   display: block;
+   
+}
+/* END OF DROP DOWN EIGHT */
+
+/* END OF DROP DOWN NINE */
+
+.dropdown9{
+   display: none;
+   position: absolute;
+   left: 430px;
+   top: 95px;
+   width: 300px;
+   padding: 20px;
+   background-color: white;
+   border: solid 0.5px rgb(209, 202, 202);
+}
+
+.dropdown9 span{
+   color: rgb(75, 163, 75);
+
+}
+
+.dropdown9 h1{
+   font-size: 20px;
+}
+
+.dropdown9 button{
+   background-color: rgb(148, 53, 148);
+   padding: 5px 10px;
+   display: block;
+   height: 40px;
+   width: 210px;
+   border: none;
+   font-size: 16px;
+   color: white;
+   cursor: pointer;
+
+}
+
+.dropdown9 button:hover{
+   opacity: 0.8;
+}
+
+.slidenine:hover .dropdown9{
+   display: block;
+   
+}
+
+
+/* END OF DROP DOWN NINE */
+
+/* START OF DROP DOWN TEN */
+.dropdown10{
+   display: none;
+   position: absolute;
+   left: 690px;
+   top: 95px;
+   width: 300px;
+   padding: 20px;
+   background-color: white;
+   border: solid 0.5px rgb(209, 202, 202);
+}
+
+.dropdown10 span{
+   color: rgb(75, 163, 75);
+
+}
+
+.dropdown10 h1{
+   font-size: 20px;
+}
+
+.dropdown10 button{
+   background-color: rgb(148, 53, 148);
+   padding: 5px 10px;
+   display: block;
+   height: 40px;
+   width: 210px;
+   border: none;
+   font-size: 16px;
+   color: white;
+   cursor: pointer;
+
+}
+
+.dropdown10 button:hover{
+   opacity: 0.8;
+}
+
+.slideten:hover .dropdown10{
+   display: block;
+   
+}
+
+/* END OF DROP DOWN TEN */
